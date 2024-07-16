@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "ES2021",
+		"lib": ["DOM", "ES2021"],
+		"jsx": "react-jsx", // Changed to "react-jsx" for the latest JSX transform
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true, // Ensures compatibility with ES6 module imports
+		"strict": true, // Enables all strict type-checking options
+		"forceConsistentCasingInFileNames": true, // Ensure case sensitivity in file names
+		"moduleResolution": "node", // Work with module resolution like Node.js
+		"skipLibCheck": true // Skip type checking of declaration files
+	},
+	"include": ["./src/**/*"]
+}
